@@ -22,7 +22,7 @@ tmux kill-session -a -t mysession
 
 rename session
 <code>
-CTRL+b$
+CTRL+b $
 </code>
 
 detatch from session
