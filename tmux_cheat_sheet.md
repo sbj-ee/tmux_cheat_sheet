@@ -166,3 +166,34 @@ convert pane into a window
 CTRL+b !
 </code>
 
+close current pane
+<code>
+CTRL+b x
+</code>
+
+## Copy Mode
+use vi keys in buffer
+<code>
+setw -g mode-keys vi
+</code>
+
+enter copy mode
+<code>
+CTRL+b [
+</code>
+
+enter copy mode and scroll one page up
+<code>
+CTRL+b PGUP
+</code>
+
+quit mode
+<code>
+q
+</code>
+
+go to top line
+<code>
+g
+</code>
+
