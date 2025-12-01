@@ -22,12 +22,12 @@ tmux kill-session -a -t mysession
 
 rename session
 <code>
-CTRL +b$
+CTRL+b$
 </code>
 
 detatch from session
 <code>
-CTRL +b d
+CTRL+b d
 </code>
 
 show all sessions
@@ -51,12 +51,12 @@ tmux attach-session -t mysession
 
 change to previous session
 <code>
-CTRL +b (
+CTRL+b (
 </code>
 
 change to next session
 <code>
-CTRL +b )
+CTRL+b )
 </code>
 
 ## Windows
@@ -67,16 +67,45 @@ tmux new -s mysession -n mywindow
 
 create window
 <code>
-CTRL +b c
+CTRL+b c
 </code>
 
 rename current window
 <code>
-CTRL +b ,
+CTRL+b ,
 </code>
 
 close current window
 <code>
-CTRL +b &
+CTRL+b &
 </code>
 
+previous window
+<code>
+CTRL+b p
+</code>
+
+next window
+<code>
+CTRL+b n
+</code>
+
+switch/select window by number
+<code>
+CTRL+b 0 ... 9
+</code>
+
+reorder window, swap number 2 (src) and 1 (dst)
+<code>
+swap-window -s 2 -t 1
+</code>
+
+move current window to the left by one position
+<code>
+swap-window -t -1
+</code>
+
+## Panes
+toggle last active pane
+<code>
+CTRL+b ;
