@@ -49,3 +49,13 @@ tmux -a -t mysession
 tmux attach-session -t mysession
 </code>
 
+change to previous session
+<code>
+CTRL +b (
+</code>
+
+change to next session
+<code>
+CTRL +b )
+</code>
+
