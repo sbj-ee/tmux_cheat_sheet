@@ -59,3 +59,24 @@ change to next session
 CTRL +b )
 </code>
 
+## Windows
+start a new session with the name *mysession* and window *mywindow*
+<code>
+tmux new -s mysession -n mywindow
+</code>
+
+create window
+<code>
+CTRL +b c
+</code>
+
+rename current window
+<code>
+CTRL +b ,
+</code>
+
+close current window
+<code>
+CTRL +b &
+</code>
+
