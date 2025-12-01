@@ -30,3 +30,16 @@ detatch from session
 CTRL +b d
 </code>
 
+show all sessions
+<code>
+tmux ls
+</code>
+
+attach to last session
+<code>
+tmux a
+tmux at
+tmux attach
+tmux attach-session
+</code>
+
