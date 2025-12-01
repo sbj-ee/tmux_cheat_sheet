@@ -112,105 +112,65 @@ use vi keys in buffer<br>
 enter copy mode<br>
 <code>CTRL+b [</code>
 
-enter copy mode and scroll one page up
-<code>
-CTRL+b PGUP
-</code>
+enter copy mode and scroll one page up<br>
+<code>CTRL+b PGUP</code>
 
-quit mode
-<code>
-q
-</code>
+quit mode<br>
+<code>q</code>
 
-go to top line
-<code>
-g
-</code>
+go to top line<br>
+<code>g</code>
 
-go to last line
-<code>
-G
-</code>
+go to last line<br>
+<code>G</code>
 
-move cursor left
-<code>
-h
-</code>
+move cursor left<br>
+<code>h</code>
 
-move cursor down
-<code>
-j
-</code>
+move cursor down<br>
+<code>j</code>
 
-move cursor up
-<code>
-k
-</code>
+move cursor up<br>
+<code>k</code>
 
-move cursor right
-<code>
-l
-</code>
+move cursor right<br>
+<code>l</code>
 
-move cursor forward by word
-<code>
-w
-</code>
+move cursor forward by word<br>
+<code>w</code>
 
-move cursor backword by word
-<code>
-b
-</code>
+move cursor backword by word<br>
+<code>b</code>
 
-search forward
-<code>
-/
-</code>
+search forward<br>
+<code>/</code>
 
-search backward
-<code>
-?
-</code>
+search backward<br>
+<code>?</code>
 
-next keyword occurrence
-<code>
-n
-</code>
+next keyword occurrence<br>
+<code>n</code>
 
-previous keyword occurrence
-<code>
-N
-</code>
+previous keyword occurrence<br>
+<code>N</code>
 
-start selection
-<code>
-SPACEBAR
-</code>
+start selection<br>
+<code>SPACEBAR</code>
 
-clear selection
-<code>
-ESC
-</code>
+clear selection<br>
+<code>ESC</code>
 
-copy selection
-<code>
-ENTER
-</code>
+copy selection<br>
+<code>ENTER</code>
 
-paste contents of buffer_0
-<code>
-CTRL+b ]
-</code>
+paste contents of buffer_0<br>
+<code>CTRL+b ]</code>
 
-display buffer_0 contents
-<code>
-show-buffer
-</code>
+display buffer_0 contents<br>
+<code>show-buffer</code>
 
-copy entire visible contents of pane to buffer
-<code>
-capture-pane
-</code>
+copy entire visible contents of pane to buffer<br>
+<code>capture-pane</code>
 
 show all buffers
 <code>
