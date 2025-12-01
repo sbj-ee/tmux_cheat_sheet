@@ -197,3 +197,114 @@ go to top line
 g
 </code>
 
+go to last line
+<code>
+G
+</code>
+
+move cursor left
+<code>
+h
+</code>
+
+move cursor down
+<code>
+j
+</code>
+
+move cursor up
+<code>
+k
+</code>
+
+move cursor right
+<code>
+l
+</code>
+
+move cursor forward by word
+<code>
+w
+</code>
+
+move cursor backword by word
+<code>
+b
+</code>
+
+search forward
+<code>
+/
+</code>
+
+search backward
+<code>
+?
+</code>
+
+next keyword occurrence
+<code>
+n
+</code>
+
+previous keyword occurrence
+<code>
+N
+</code>
+
+start selection
+<code>
+SPACEBAR
+</code>
+
+clear selection
+<code>
+ESC
+</code>
+
+copy selection
+<code>
+ENTER
+</code>
+
+paste contents of buffer_0
+<code>
+CTRL+b ]
+</code>
+
+display buffer_0 contents
+<code>
+show-buffer
+</code>
+
+copy entire visible contents of pane to buffer
+<code>
+capture-pane
+</code>
+
+show all buffers
+<code>
+list-buffers
+</code>
+
+show all buffers and paste selected
+<code>
+choose-buffer
+</code>
+
+save buffer contents to *buf.txt*
+<code>
+save-buffer buf.txt
+</code>
+
+delete buffer_1
+<code>
+delete-buffer -b 1
+</code>
+
+## Miscellaneous
+enter command mode
+<code>
+CTRL+b :
+</code>
+
