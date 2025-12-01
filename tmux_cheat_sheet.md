@@ -10,3 +10,8 @@ kill/delete session *mysession*
 tmux kill-session -t mysession
 </code>
 
+kill/delete all sessions except the current session
+<code>
+tmux kill-session -a
+</code>
+
