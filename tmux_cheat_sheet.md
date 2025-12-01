@@ -43,3 +43,9 @@ tmux attach
 tmux attach-session
 </code>
 
+attach to a session named *mysession*
+<code>
+tmux -a -t mysession
+tmux attach-session -t mysession
+</code>
+
