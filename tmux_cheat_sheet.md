@@ -27,62 +27,40 @@ tmux at
 tmux attach
 tmux attach-session</code>
 
-attach to a session named *mysession*
-<code>
-tmux -a -t mysession
-tmux attach-session -t mysession
-</code>
+attach to a session named *mysession*<br>
+<code>tmux -a -t mysession
+tmux attach-session -t mysession</code>
 
-change to previous session
-<code>
-CTRL+b (
-</code>
+change to previous session<br>
+<code>CTRL+b (</code>
 
-change to next session
-<code>
-CTRL+b )
-</code>
+change to next session<br>
+<code>CTRL+b )</code>
 
 ## Windows
-start a new session with the name *mysession* and window *mywindow*
-<code>
-tmux new -s mysession -n mywindow
-</code>
+start a new session with the name *mysession* and window *mywindow*<br>
+<code>tmux new -s mysession -n mywindow</code>
 
-create window
-<code>
-CTRL+b c
-</code>
+create window<br>
+<code>CTRL+b c</code>
 
-rename current window
-<code>
-CTRL+b ,
-</code>
+rename current window<br>
+<code>CTRL+b ,</code>
 
-close current window
-<code>
-CTRL+b &
-</code>
+close current window<br>
+<code>CTRL+b &</code>
 
-previous window
-<code>
-CTRL+b p
-</code>
+previous window<br>
+<code>CTRL+b p</code>
 
-next window
-<code>
-CTRL+b n
-</code>
+next window<br>
+<code>CTRL+b n</code>
 
-switch/select window by number
-<code>
-CTRL+b 0 ... 9
-</code>
+switch/select window by number<br>
+<code>CTRL+b 0 ... 9</code>
 
-reorder window, swap number 2 (src) and 1 (dst)
-<code>
-swap-window -s 2 -t 1
-</code>
+reorder window, swap number 2 (src) and 1 (dst)<br>
+<code>swap-window -s 2 -t 1</code>
 
 move current window to the left by one position
 <code>
