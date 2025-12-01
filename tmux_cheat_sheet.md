@@ -109,3 +109,60 @@ swap-window -t -1
 toggle last active pane
 <code>
 CTRL+b ;
+</code>
+
+split pane vertically
+<code>
+CTRL+b %
+</code>
+
+split pane horizontally
+<code>
+CTRL+b "
+</code>
+
+move the current pane left
+<code>
+CTRL+b {
+</code>
+
+move the current pane right
+<code>
+CTRL+b }
+</code>
+
+toggle synchronize-panes (send commands to all panes)
+<code>
+setw synchronize-panes
+</code>
+
+toggle between pane layouts
+<code>
+CTRL+b SPACEBAR
+</code>
+
+switch to next pane
+<code>
+CTRL+b o
+</code>
+
+show pane numbers
+<code>
+CTRL+b q
+</code>
+
+switch/select pane by number
+<code>
+CTRL+b q 0 ... 9
+</code>
+
+toggle pane zoom
+<code>
+CTRL+b z
+</code>
+
+convert pane into a window
+<code>
+CTRL+b !
+</code>
+
