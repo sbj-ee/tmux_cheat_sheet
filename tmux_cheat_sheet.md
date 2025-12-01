@@ -62,87 +62,55 @@ switch/select window by number<br>
 reorder window, swap number 2 (src) and 1 (dst)<br>
 <code>swap-window -s 2 -t 1</code>
 
-move current window to the left by one position
-<code>
-swap-window -t -1
-</code>
+move current window to the left by one position<br>
+<code>swap-window -t -1</code>
 
 ## Panes
-toggle last active pane
-<code>
-CTRL+b ;
-</code>
+toggle last active pane<br>
+<code>CTRL+b ;</code>
 
-split pane vertically
-<code>
-CTRL+b %
-</code>
+split pane vertically<br>
+<code>CTRL+b %</code>
 
-split pane horizontally
-<code>
-CTRL+b "
-</code>
+split pane horizontally<br>
+<code>CTRL+b "</code>
 
-move the current pane left
-<code>
-CTRL+b {
-</code>
+move the current pane left<br>
+<code>CTRL+b {</code>
 
-move the current pane right
-<code>
-CTRL+b }
-</code>
+move the current pane right<br>
+<code>CTRL+b }</code>
 
-toggle synchronize-panes (send commands to all panes)
-<code>
-setw synchronize-panes
-</code>
+toggle synchronize-panes (send commands to all panes)<br>
+<code>setw synchronize-panes</code>
 
-toggle between pane layouts
-<code>
-CTRL+b SPACEBAR
-</code>
+toggle between pane layouts<br>
+<code>CTRL+b SPACEBAR</code>
 
-switch to next pane
-<code>
-CTRL+b o
-</code>
+switch to next pane<br>
+<code>CTRL+b o</code>
 
-show pane numbers
-<code>
-CTRL+b q
-</code>
+show pane numbers<br>
+<code>CTRL+b q</code>
 
-switch/select pane by number
-<code>
-CTRL+b q 0 ... 9
-</code>
+switch/select pane by number<br>
+<code>CTRL+b q 0 ... 9</code>
 
-toggle pane zoom
-<code>
-CTRL+b z
-</code>
+toggle pane zoom<br>
+<code>CTRL+b z</code>
 
-convert pane into a window
-<code>
-CTRL+b !
-</code>
+convert pane into a window<br>
+<code>CTRL+b !</code>
 
-close current pane
-<code>
-CTRL+b x
-</code>
+close current pane<br>
+<code>CTRL+b x</code>
 
 ## Copy Mode
-use vi keys in buffer
-<code>
-setw -g mode-keys vi
-</code>
+use vi keys in buffer<br>
+<code>setw -g mode-keys vi</code>
 
-enter copy mode
-<code>
-CTRL+b [
-</code>
+enter copy mode<br>
+<code>CTRL+b [</code>
 
 enter copy mode and scroll one page up
 <code>
