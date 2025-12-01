@@ -308,3 +308,22 @@ enter command mode
 CTRL+b :
 </code>
 
+set OPTION for all sessions
+<code>
+set -g OPTION
+</code>
+
+set OPTION for all windows
+<code>
+setw -g OPTION
+</code>
+
+show every session, window, pane
+<code>
+tmux info
+</code>
+
+show shortcuts
+<code>
+CTRL+b ?
+</code>
