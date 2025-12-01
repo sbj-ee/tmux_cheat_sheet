@@ -172,48 +172,30 @@ display buffer_0 contents<br>
 copy entire visible contents of pane to buffer<br>
 <code>capture-pane</code>
 
-show all buffers
-<code>
-list-buffers
-</code>
+show all buffers<br>
+<code>list-buffers</code>
 
-show all buffers and paste selected
-<code>
-choose-buffer
-</code>
+show all buffers and paste selected<br>
+<code>choose-buffer</code>
 
-save buffer contents to *buf.txt*
-<code>
-save-buffer buf.txt
-</code>
+save buffer contents to *buf.txt*<br>
+<code>save-buffer buf.txt</code>
 
-delete buffer_1
-<code>
-delete-buffer -b 1
-</code>
+delete buffer_1<br>
+<code>delete-buffer -b 1</code>
 
 ## Miscellaneous
-enter command mode
-<code>
-CTRL+b :
-</code>
+enter command mode<br>
+<code>CTRL+b :</code>
 
-set OPTION for all sessions
-<code>
-set -g OPTION
-</code>
+set OPTION for all sessions<br>
+<code>set -g OPTION</code>
 
-set OPTION for all windows
-<code>
-setw -g OPTION
-</code>
+set OPTION for all windows<br>
+<code>setw -g OPTION</code>
 
-show every session, window, pane
-<code>
-tmux info
-</code>
+show every session, window, pane<br>
+<code>tmux info</code>
 
-show shortcuts
-<code>
-CTRL+b ?
-</code>
+show shortcuts<br>
+<code>CTRL+b ?</code>
