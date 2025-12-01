@@ -1,9 +1,7 @@
 # tmux cheat sheet
 ## Sessions
 Start a new session with the name *mysession*<br>
-<code>
-tmux new -s mysession
-</code>
+<code>tmux new -s mysession</code>
 
 kill/delete session *mysession*
 <code>
