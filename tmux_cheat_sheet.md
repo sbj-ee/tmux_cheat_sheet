@@ -182,6 +182,12 @@ enter copy mode
 CTRL+b [
 ```
 
+scroll the buffer
+```
+CTRL+b [
+    then use the arrow keys to move or PGUP/PGDOWN
+```
+
 enter copy mode and scroll one page up
 ```
 CTRL+b PGUP
