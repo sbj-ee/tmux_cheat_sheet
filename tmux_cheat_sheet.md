@@ -20,6 +20,11 @@ kill/delete all sessions except *mysession*
 tmux kill-session -a -t mysession
 ```
 
+help screen
+```
+CTRL+b ?
+```
+
 rename session
 ```
 CTRL+b $
